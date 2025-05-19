@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarunsaxena/coursera/mlops/datascience_p1/mlruns/0/25f1c8d291f34eb999d02bc3df0dddd5/artifacts
+end_time: 1747668438595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25f1c8d291f34eb999d02bc3df0dddd5
+run_name: capricious-bat-199
+run_uuid: 25f1c8d291f34eb999d02bc3df0dddd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747668436852
+status: 3
+tags: []
+user_id: tarunsaxena

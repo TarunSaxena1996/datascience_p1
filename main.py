@@ -1,3 +1,4 @@
+from src.datascience_p1.pipeline.model_evaluation_pipeline import ModelEvaluationTrainingPipeline
 from src.datascience_p1.pipeline.model_trainer_pipeline import ModelTrainerTrainingPipeline
 from src.datascience_p1.pipeline.data_transformatiom_pipeline import DataTransformationTrainingPipeline
 from src.datascience_p1.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
@@ -47,7 +48,7 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
-'''
+
 STAGE_NAME = "Model evaluation stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
@@ -57,4 +58,3 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
-'''

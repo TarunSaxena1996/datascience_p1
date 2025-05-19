@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/tarunsaxena/coursera/mlops/datascience_p1/mlruns/0/2970d7e7b5c8488aa5df93c272608610/artifacts
+end_time: 1747656118760
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2970d7e7b5c8488aa5df93c272608610
+run_name: bouncy-stoat-759
+run_uuid: 2970d7e7b5c8488aa5df93c272608610
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747656116935
+status: 3
+tags: []
+user_id: tarunsaxena
