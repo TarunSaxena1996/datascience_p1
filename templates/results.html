@@ -1,2 +1,66 @@
-<h1>{{prediction}} </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url('static/assets/img/result-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
 
+        .result-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .result-card h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .result-card p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #ff4b4b;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-card">
+        <h1>Prediction Result</h1>
+        <p>Your wine quality is predicted to be:</p>
+        <h2>{{ prediction }}</h2> <!-- Use templating to show result from backend -->
+        <a href="/" class="back-button">Go Back</a>
+    </div>
+</body>
+</html>
