@@ -15,7 +15,7 @@ from src.datascience_p1.entity.config_entity import ModelEvaluationConfig
 import os
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/TarunSaxena1996/datascience_p1.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="TarunSaxena1996"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="97b27b1ff5c6b212b7192d96e5157595e9ba742e"
+os.environ["MLFLOW_TRACKING_PASSWORD"]=""
 
 
 class ModelEvaluation:
